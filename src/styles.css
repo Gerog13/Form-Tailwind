@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.succes {
+    @apply text-base font-medium text-green-500 border-2 border-green-500  block w-full p-2 focus:outline-none rounded-md;
+}
+
+.err {
+    @apply text-base font-medium text-red-500 border-2 border-red-500  block w-full p-2 focus:outline-none rounded-md;
+}
+
+.form__input {
+    @apply  text-base font-medium text-indigo-500 border-b-2 border-gray-300  block w-full p-2 focus:outline-none focus:border-indigo-500 transition ease-out duration-150;
+}
